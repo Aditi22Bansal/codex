@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    string name;
+    int age;
+    string college;
+    cout<<"Enter full name(use space in between)";
+    getline(cin,name);
+    cout<<"Enter age:"<<endl;
+    cin>>age;
+    cin.ignore();
+    cout<<"Enter college name(use space in between)";
+    getline(cin,college);
+    cout<<"Hello"<<name<<" I see you are "<<age<<" years old and are currently studying at "<<college;
+}
